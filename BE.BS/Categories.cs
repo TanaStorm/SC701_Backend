@@ -44,12 +44,12 @@ namespace BE.BS
 
         public void Insert(data.Categories t)
         {
-            throw new NotImplementedException();
+            _dal.Insert(t);
         }
 
         public void Update(data.Categories t)
         {
-            throw new NotImplementedException();
+            _dal.Update(t);
         }
     }
 }
