@@ -46,11 +46,13 @@ namespace BE.DAL
         public void Insert(data.Categories t)
         {
             repo.Insert(t);
+            repo.Commit();
         }
 
         public void Update(data.Categories t)
         {
             repo.Update(t);
+            repo.Commit();
         }
     }
 }
